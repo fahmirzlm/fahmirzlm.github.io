@@ -1,0 +1,50 @@
+body {
+	background-color: white;
+}
+
+.logo img {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-brand {
+	font-family: 'Russo One', sans-serif;
+	font-size: 24px;
+}
+
+.navbar-inverse {
+	background-color: transparent;
+	border:0px;
+	border-radius: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.carousel {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+}
+.carousel-caption {
+    top: 200px;
+}
+
+.carousel-caption h3 {
+	font-family: helvetica;
+    font-size: 30px;
+}
+
+.carousel-caption p {
+	font-family: helvetica;
+	font-size: 20px;
+	font-style: italic;
+}
