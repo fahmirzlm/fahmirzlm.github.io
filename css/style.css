@@ -1,0 +1,68 @@
+.jumbotron {
+background-image: url(https://images.unsplash.com/photo-1495542779398-9fec7dc7986c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6dda01a6331e12ddc91aab166541f2d9&auto=format&fit=crop&w=1568&q=80);
+background-size: cover;
+background-position: center-bottom;
+color: white;
+position: relative;
+margin-top: 50px;
+padding: 190px 0px;
+text-align: center;
+}
+
+.overlay {
+width: 100%;
+height: 100%;
+background-color: black;
+position: absolute;
+opacity: 0.5;
+top: 0;
+left: 0;
+}
+
+.jumbotron .container{
+	position: relative;
+}
+
+.navbar-inverse {
+	background-color: black;
+	border:0px;
+	border-radius: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-brand {
+	font-family: 'Russo One', sans-serif;
+	font-size: 24px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+
+.thumbnail {
+	min-height: 450px;
+}
+
+.btn-default{
+	background-color: lightgrey;
+	position: absolute;
+	bottom: 35px;
+	right: 30px;
+}
+
+.logo img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: black;
+}
+
+.container h1{
+	color: white;
+}
